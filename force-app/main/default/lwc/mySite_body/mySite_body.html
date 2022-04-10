@@ -1,0 +1,117 @@
+<template>
+
+    <article class="slds-card slds-m-top_xx-large">
+        <div class="slds-card__header slds-grid slds-theme_shade slds-p-around_small">
+          <header class="slds-media slds-media_center slds-has-flexi-truncate">
+            <div class="slds-media__figure">
+                <span class="slds-icon_container slds-icon-utility-announcement">
+                    <svg class="slds-icon slds-icon_small slds-icon-text-default" aria-hidden="true">
+                        <use xlink:href="/_slds/icons/utility-sprite/svg/symbols.svg#trail"></use>
+                    </svg>
+                </span>
+            </div>
+            <div class="slds-media__body">
+              <h2 class="slds-card__header-title">
+              
+                  TLDR
+     
+              </h2>
+            </div>
+          </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+
+
+
+
+            <lightning-layout>
+                <lightning-layout-item  class="slds-p-right_large">
+                    <div class="header-column">
+                        <p class="field-title" title="Field 1">Name</p>
+                        <b>Dylan Morrill</b>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item  class="slds-p-right_large">
+                    <div class="header-column">
+                        <p class="field-title" title="Field 1">Title</p>
+                        <b>Salesforce Engineer</b>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item  class="slds-p-right_large">
+                    <div class="header-column">
+                        <p class="field-title" title="Field 1">Company</p>
+                   
+
+
+                        
+                                <b>Meta</b>
+
+
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item  class="slds-p-right_large">
+                    <div class="header-column">
+                        <p class="field-title" title="Field 1">Salesforce Experience</p>
+                        <b>5 yr 6 mos</b>
+                    </div>
+                </lightning-layout-item>
+            </lightning-layout>
+
+
+
+
+        </div>
+      </article>
+
+
+
+
+    <div class="slds-grid slds-gutters slds-p-top_small">
+        <div class="slds-col slds-size_2-of-3">
+
+
+            <article class="slds-card">
+                <div class="slds-card__body slds-card__body_inner">
+                    <lightning-tabset>
+                        <lightning-tab label="Details" title="2nd tab extended title">
+                            <lightning-record-view-form density="compact"
+                                object-api-name="Salesforce_Engineer__c"
+                                record-id="a0Y6g00000BX102EAD"
+                            >
+
+
+                            <lightning-output-field field-name={nameField}> </lightning-output-field>
+                            <lightning-output-field field-name={emailField}> </lightning-output-field>
+                            <lightning-output-field field-name={locationField}> </lightning-output-field>
+                            <lightning-output-field field-name={onJobMarketField}> </lightning-output-field>
+                            <lightning-output-field field-name={techSkillsField}> </lightning-output-field>
+
+
+
+
+
+                        </lightning-record-view-form>
+
+                        </lightning-tab>
+                        <lightning-tab label="Related">
+                            
+
+
+     
+
+
+
+
+
+
+                         </lightning-tab>
+                    </lightning-tabset>
+
+                </div>
+              </article>
+        </div>
+        <div class="slds-col slds-size_1-of-3">
+          <span>2</span>
+        </div>
+      </div>
+</template>
